@@ -1,0 +1,117 @@
+.
+├── 241010_105227_4x_10x_20x_40x_Discontinuous_Drawer1 10-Oct-2024 10-48-54
+│   └── 241010_105227_Plate 1
+│       ├── 20241018
+│       ├── results_data
+│       └── results_images
+├── 241010_111308_4x_10x_20x_40x_Discontinuous_Drawer2 10-Oct-2024 10-49-27
+│   └── 241010_111308_Plate 1
+│       ├── 20241021
+│       ├── results_data
+│       └── results_images
+├── 241010_113157_4x_10x_20x_40x_Discontinuous_Drawer3 10-Oct-2024 10-49-56
+│   └── 241010_113157_Plate 1
+│       ├── 20241021
+│       ├── results_data
+│       └── results_images
+├── 241011_175118_4x_10x_20x_40x_Discontinuous_Drawer5 11-Oct-2024 16-30-30
+│   └── 241011_175118_Plate 1
+│       ├── 20241022
+│       ├── results_data
+│       └── results_images
+├── 241011_181056_4x_10x_20x_40x_Discontinuous_Drawer6 11-Oct-2024 16-30-30
+│   └── 241011_181056_Plate 1
+│       ├── 20241022
+│       ├── results_data
+│       └── results_images
+├── 241011_183053_4x_10x_20x_40x_Discontinuous_Drawer7 11-Oct-2024 16-30-30
+│   └── 241011_183053_Plate 1
+│       ├── 20241022
+│       ├── results_data
+│       └── results_images
+├── 241014_113135_4x_10x_20x_40x_Discontinuous_Drawer1 14-Oct-2024 11-28-02
+│   └── 241014_113135_Plate 1
+│       ├── 20241022
+│       ├── results_data
+│       └── results_images
+├── 241014_115113_4x_10x_20x_40x_Discontinuous_Drawer2 14-Oct-2024 11-28-33
+│   └── 241014_115113_Plate 1
+│       ├── 20241023
+│       ├── results_data
+│       └── results_images
+├── 241014_121049_4x_10x_20x_40x_Discontinuous_Drawer3 14-Oct-2024 11-29-05
+│   └── 241014_121049_Plate 1
+│       ├── 20241023
+│       ├── results_data
+│       └── results_images
+├── 241016_105223_4x_10x_20x_40x_Discontinuous_Drawer1 16-Oct-2024 10-48-50
+│   └── 241016_105223_Plate 1
+│       ├── 20241023
+│       ├── results_data
+│       └── results_images
+├── 241016_111201_4x_10x_20x_40x_Discontinuous_Drawer2 16-Oct-2024 10-49-17
+│   └── 241016_111201_Plate 1
+│       ├── 20241024
+│       ├── results_data
+│       └── results_images
+├── 241016_113137_4x_10x_20x_40x_Discontinuous_Drawer3 16-Oct-2024 10-49-47
+│   └── 241016_113137_Plate 1
+│       ├── 20241024
+│       ├── results_data
+│       └── results_images
+├── 241017_175114_4x_10x_20x_40x_Discontinuous_Drawer5 17-Oct-2024 16-08-32
+│   └── 241017_175114_Plate 1
+│       ├── 20241024
+│       ├── results_data
+│       └── results_images
+├── 241017_181052_4x_10x_20x_40x_Discontinuous_Drawer6 17-Oct-2024 16-08-32
+│   └── 241017_181052_Plate 1
+│       ├── 20241024
+│       ├── results_data
+│       └── results_images
+├── 241017_183030_4x_10x_20x_40x_Discontinuous_Drawer7 17-Oct-2024 16-08-32
+│   └── 241017_183030_Plate 1
+│       ├── 20241025
+│       ├── results_data
+│       └── results_images
+├── 241023_161758_4x_10x_20x_40x_Discontinuous_Drawer1 23-Oct-2024 16-14-25
+│   └── 241023_161758_Plate 1
+│       ├── 20241025
+│       ├── results_data
+│       └── results_images
+├── 241023_163737_4x_10x_20x_40x_Discontinuous_Drawer2 23-Oct-2024 16-14-57
+│   └── 241023_163737_Plate 1
+│       ├── 20241026
+│       ├── results_data
+│       └── results_images
+├── 241023_165712_4x_10x_20x_40x_Discontinuous_Drawer3 23-Oct-2024 16-17-02
+│   └── 241023_165712_Plate 1
+│       ├── 20241026
+│       ├── results_data
+│       └── results_images
+├── Embeddings
+│   ├── bipA
+│   ├── flaA
+│   │   └── 10x
+│   ├── hapR
+│   │   └── 10x
+│   ├── lapG
+│   ├── luxO_D47E
+│   │   └── 10x
+│   ├── manA
+│   │   └── 10x
+│   ├── potD1
+│   │   └── 10x
+│   ├── rbmA
+│   ├── rbmB
+│   │   └── 10x
+│   ├── vpsL
+│   │   └── 10x
+│   ├── vpvC_W240R
+│   │   └── 10x
+│   └── WT
+│       └── 10x
+├── processed_data
+└── __pycache__
+
+115 directories
