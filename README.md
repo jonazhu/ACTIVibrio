@@ -23,3 +23,31 @@ $PE(pos,2i) = sin\left(\frac{pos}{10000^\frac{2i}{D}}\right)$
 
 $PE(pos,2i + 1) = cos\left(\frac{pos}{10000^\frac{2i}{D}}\right)$
 
+# Stopping Criteria
+
+This project focuses also on stopping criteria for various active learning query selection algorithms: these include the high-performance heuristics of uncertainty sampling and query by committee (QBC), the Type I algorithm with theoretical guarantees Importance-Weighted Active Learning (IWAL), the Type II algorithms with theoretical guarantees DH and PLAL, and an exploration of deep learning selection. 
+
+## Uncertainty Sampling
+
+This method simply selects the point whose classification is most uncertain by the current model. Stopping criteria have already been proposed, and these are confidence-based stopping (stop when average uncertainty falls below a specific threshold) and gradient-based stopping (stop when difference between median uncertainty between iterations falls below a specific threshold).
+
+## Query by Committee
+
+QBC aims to establish a committee of models; these models predict on unlabeled data, and we select the point on which the committee has the highest disagreement. One stopping criteria has been proposed, which stops when average disagreement falls below a specific threshold or approaches a gradient of 0. We propose distribution-based stopping, which stops when the distributions of the data used for each committee member are highly similar. 
+
+## Importance-Weighted Active Learning
+
+(info to be added)
+
+## DH Algorithm
+
+(info to be added)
+
+## PLAL Algorithm
+
+(info to be added)
+
+## Deep Learning
+
+(info to be added)
+
