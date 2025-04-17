@@ -27,27 +27,33 @@ $PE(pos,2i + 1) = cos\left(\frac{pos}{10000^\frac{2i}{D}}\right)$
 
 This project focuses also on stopping criteria for various active learning query selection algorithms: these include the high-performance heuristics of uncertainty sampling and query by committee (QBC), the Type I algorithm with theoretical guarantees Importance-Weighted Active Learning (IWAL), the Type II algorithms with theoretical guarantees DH and PLAL, and an exploration of deep learning selection. 
 
-## Uncertainty Sampling
+### Uncertainty Sampling
 
 This method simply selects the point whose classification is most uncertain by the current model. Stopping criteria have already been proposed, and these are confidence-based stopping (stop when average uncertainty falls below a specific threshold) and gradient-based stopping (stop when difference between median uncertainty between iterations falls below a specific threshold).
 
-## Query by Committee
+### Query by Committee
 
 QBC aims to establish a committee of models; these models predict on unlabeled data, and we select the point on which the committee has the highest disagreement. One stopping criteria has been proposed, which stops when average disagreement falls below a specific threshold or approaches a gradient of 0. We propose distribution-based stopping, which stops when the distributions of the data used for each committee member are highly similar. 
 
-## Importance-Weighted Active Learning
+### Importance-Weighted Active Learning
+
+The IWAL folder contains all the code that runs this algorithm by Beygelzimer et al. (2009) in their paper [Importance-Weighted Active Learning](https://doi.org/10.1145/1553374.1553381). All code implemented by the team. 
+
+The relevant stopping criteria requires some user-specified $\epsilon > 0$ and stops the algorithm when the following conditions are met:
+
+- All initial bootstrap samples have been accepted;
+- We have accepted two or more non-bootstrap samples;
+- The difference in importance-weighted cross-validation loss between iterations where samples are accepted is $< \epsilon$. 
+
+### DH Algorithm
+
+The DH folder contains all the code that runs this algorithm by Dasgupta and Hsu (2008) in their paper [Hierarchical Sampling for Active Learning](https://dl.acm.org/doi/pdf/10.1145/1390156.1390183?casa_token=6-ojrfW_iaEAAAAA:fsZCZumWq1bQEy3MgpibVVT1FXW4Li9M5cIIiPv70J8mZBlizYfBCt-oMksbxPRgqiIGaTtyssP2Qg). Code is based off of the [implementation by Haotian Teng](https://github.com/haotianteng/DH) with relevant modifications by the team, including addition of iterative cross-validation and the stopping criteria. 
+
+### PLAL Algorithm
 
 (info to be added)
 
-## DH Algorithm
-
-(info to be added)
-
-## PLAL Algorithm
-
-(info to be added)
-
-## Deep Learning
+### Deep Learning
 
 (info to be added)
 
