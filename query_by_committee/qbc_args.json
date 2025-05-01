@@ -1,0 +1,5 @@
+{
+    "patience": 10,
+    "kl_threshold": 0.65,
+    "eps": 1e-10
+}
