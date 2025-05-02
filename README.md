@@ -49,7 +49,7 @@ The DH folder contains all the code that runs this algorithm by Dasgupta and Hsu
 
 ### PLAL Algorithm
 
-(info to be added)
+The PLAL folder contains all necessary code to run PLAL with index- and depth-based stopping. Modules are included that provide utility functions for KDTree and BinaryTree processing. All code in this directory is implemented by the team.
 
 ### Deep Learning
 
