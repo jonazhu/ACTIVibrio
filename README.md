@@ -51,7 +51,7 @@ The DH folder contains all the code that runs this algorithm by Dasgupta and Hsu
 
 The PLAL folder contains all necessary code to run PLAL with index- and depth-based stopping. Modules are included that provide utility functions for KDTree and BinaryTree processing. All code in this directory is implemented by the team.
 
-### Deep Learning
+### Uncertainty (Random Forest, SGD and MLP-MC Dropout)
 
-(info to be added)
+The folder contains jupyter notebooks with all the code to run Uncertainty based stopping for base models. 
 
